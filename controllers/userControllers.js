@@ -21,4 +21,5 @@ const upload = multer({
     fileFilter:isimage
 
 })
+
 exports.uploadimage = upload.single('photo')
